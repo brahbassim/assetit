@@ -16,9 +16,9 @@ Route::middleware('guest')->group(function () {
     // Route::get('register', [RegisteredUserController::class, 'create'])->name('register');
     // Route::post('register', [RegisteredUserController::class, 'store']);
 
-    // Login disabled - use demo credentials
-    // Route::get('login', [AuthenticatedSessionController::class, 'create'])->name('login');
-    // Route::post('login', [AuthenticatedSessionController::class, 'store']);
+    // Login route defined but hidden from UI
+    Route::get('login', [AuthenticatedSessionController::class, 'create'])->name('login');
+    Route::post('login', [AuthenticatedSessionController::class, 'store']);
 
     // Password reset enabled
     Route::get('forgot-password', [PasswordResetLinkController::class, 'create'])->name('password.request');
