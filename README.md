@@ -1,6 +1,6 @@
 # IT Asset & License Management System
 
-A comprehensive Laravel 12 application for managing IT assets, software licenses, employees, vendors, and more.
+A comprehensive Laravel 13 application for managing IT assets, software licenses, employees, vendors, and more.
 
 ## Features
 
@@ -104,7 +104,7 @@ php artisan schedule:run
 
 ## Tech Stack
 
-- Laravel 12 + PHP 8.2+
+- Laravel 13 + PHP 8.3+
 - MySQL Database
 - Bootstrap 4 (SB Admin 2)
 - Chart.js Visualizations
@@ -133,8 +133,8 @@ php artisan route:clear             # Clear route cache
 
 ## Requirements
 
-- PHP 8.2+
-- Laravel 12
+- PHP 8.3+
+- Laravel 13
 - MySQL 5.7+
 - Composer
 - Node.js
