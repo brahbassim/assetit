@@ -1,5 +1,7 @@
 # IT Asset & License Management System
 
+[![Documentation](https://img.shields.io/badge/Documentation-Online-blue?style=for-the-badge)](https://brahbassim.github.io/assetit/)
+
 A comprehensive Laravel 13 application for managing IT assets, software licenses, employees, vendors, and more.
 
 ## Features
@@ -55,7 +57,11 @@ php artisan serve
 
 Access at **http://localhost:8000**
 
-## Login Credentials
+## Documentation
+
+Full documentation available at: **https://brahbassim.github.io/assetit/**
+
+Includes: Installation, Configuration, Usage Guide, Modules, API, Deployment, and Contributing.
 
 | Role | Email | Password |
 |------|-------|----------|
