@@ -294,15 +294,7 @@
                         @csrf
                         <button class="btn btn-primary" type="submit">@lang('app.logout')</button>
                     </form>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <form method="POST" action="{{ route('logout') }}">
-                        @csrf
-                        <button class="btn btn-primary" type="submit">Logout</button>
-                    </form>
-                </div>
+                </div>               
             </div>
         </div>
     </div>
