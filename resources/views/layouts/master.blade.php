@@ -196,11 +196,11 @@
                                 <i class="fas fa-globe"></i>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="languageDropdown">
-                                <a class="dropdown-item" href="?lang=fr">
-                                    <i class="fas fa-check fa-sm mr-2 {{ app()->getLocale() == 'fr' ? '' : 'text-gray-400' }}"></i> Français
-                                </a>
                                 <a class="dropdown-item" href="?lang=en">
                                     <i class="fas fa-check fa-sm mr-2 {{ app()->getLocale() == 'en' ? '' : 'text-gray-400' }}"></i> @lang('app.english')
+                                </a>
+                                <a class="dropdown-item" href="?lang=fr">
+                                    <i class="fas fa-check fa-sm mr-2 {{ app()->getLocale() == 'fr' ? '' : 'text-gray-400' }}"></i> Français
                                 </a>
                             </div>
                         </li>

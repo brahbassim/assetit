@@ -1,8 +1,11 @@
 # IT Asset & License Management System
 
 [![Documentation](https://img.shields.io/badge/Documentation-Online-blue?style=for-the-badge)](https://brahbassim.github.io/assetit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 A comprehensive Laravel 13 application for managing IT assets, software licenses, employees, vendors, and more.
+
+> **100% Free & Open Source Forever** - This project is licensed under MIT. Use it, modify it, and distribute it as you wish with no restrictions.
 
 ## Features
 
@@ -35,6 +38,7 @@ A comprehensive Laravel 13 application for managing IT assets, software licenses
 - **License Expiration Alerts** - Automated scheduled checks
 - **Profile Management** - Users can update their profile
 - **Responsive Design** - SB Admin 2 Bootstrap 4 template
+- **Debug Bar** - Laravel Debugbar for development debugging
 
 ## Quick Start
 
@@ -117,6 +121,7 @@ php artisan schedule:run
 - Spatie Laravel Permission
 - Barryvdh Laravel DomPDF
 - Maatwebsite Excel
+- Laravel Debugbar (dev)
 
 ## Demo Data
 

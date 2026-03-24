@@ -18,7 +18,7 @@ Before installing AssetIT, ensure your system meets the following requirements:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/assetit.git
+git clone https://github.com/brahbassim/assetit.git
 cd assetit
 ```
 
@@ -34,7 +34,13 @@ composer install
 npm install
 ```
 
-### Step 4: Configure Environment
+### Step 4: Install Debugbar (Optional - Development Only)
+
+```bash
+composer require fruitcake/laravel-debugbar --dev
+```
+
+### Step 5: Configure Environment
 
 Copy the example environment file and configure your settings:
 
@@ -59,19 +65,19 @@ Create the database:
 CREATE DATABASE assetit;
 ```
 
-### Step 5: Generate Application Key
+### Step 6: Generate Application Key
 
 ```bash
 php artisan key:generate
 ```
 
-### Step 6: Run Migrations
+### Step 7: Run Migrations
 
 ```bash
 php artisan migrate
 ```
 
-### Step 7: Seed Database (Optional)
+### Step 8: Seed Database (Optional)
 
 For demo data:
 
@@ -89,13 +95,13 @@ This will create:
 - 80 Maintenance Records
 - 4 User accounts
 
-### Step 8: Build Assets
+### Step 9: Build Assets
 
 ```bash
 npm run build
 ```
 
-### Step 9: Start the Server
+### Step 10: Start the Server
 
 ```bash
 php artisan serve

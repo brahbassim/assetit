@@ -58,4 +58,4 @@ AssetIT is a powerful Laravel 12 application designed for IT departments to mana
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+> **100% Free & Open Source Forever!** - This project is licensed under the [MIT License](LICENSE). Use it, modify it, and distribute it as you wish - completely free, forever.
