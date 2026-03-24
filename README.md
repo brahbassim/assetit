@@ -35,6 +35,7 @@ A comprehensive Laravel 13 application for managing IT assets, software licenses
 - **Export** - PDF and Excel export capabilities
 
 ### Additional Features
+- **Multi-Language Support** - English, French
 - **License Expiration Alerts** - Automated scheduled checks
 - **Profile Management** - Users can update their profile
 - **Responsive Design** - SB Admin 2 Bootstrap 4 template
@@ -114,8 +115,9 @@ php artisan schedule:run
 
 ## Tech Stack
 
-- Laravel 13 + PHP 8.3+
-- MySQL Database
+- **LEMP Stack** (Linux, Nginx, MySQL, PHP) - Developed on
+- **LAMP Stack** (Linux, Apache, MySQL, PHP) - Also compatible
+- Laravel 13 + PHP 8.4+
 - Bootstrap 4 (SB Admin 2)
 - Chart.js Visualizations
 - Spatie Laravel Permission
@@ -144,11 +146,12 @@ php artisan route:clear             # Clear route cache
 
 ## Requirements
 
-- PHP 8.3+
+- PHP 8.4+
 - Laravel 13
-- MySQL 5.7+
+- MySQL 5.7+ (or MariaDB)
 - Composer
 - Node.js
+- Web Server: Nginx or Apache
 
 ## License
 

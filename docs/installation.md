@@ -6,12 +6,14 @@ This guide will walk you through the complete installation process for AssetIT.
 
 Before installing AssetIT, ensure your system meets the following requirements:
 
-- **PHP**: 8.2 or higher
+- **PHP**: 8.4 or higher
 - **Composer**: Latest version
 - **MySQL**: 5.7+ or MariaDB 10.3+
 - **Node.js**: 18.x or higher
 - **npm**: Latest version
-- **Web Server**: Apache or Nginx
+- **Web Server**: Nginx (LEMP) or Apache (LAMP)
+
+> **Note:** This project was developed on LEMP stack (Linux, Nginx, MySQL, PHP) but is fully compatible with LAMP stack (Linux, Apache, MySQL, PHP).
 
 ## Installation Steps
 

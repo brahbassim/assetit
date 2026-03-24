@@ -27,6 +27,7 @@ AssetIT is a powerful Laravel 12 application designed for IT departments to mana
 
 - ✅ Role-Based Access Control (4 roles)
 - ✅ 35+ granular permissions
+- ✅ Multi-Language Support (EN, FR)
 - ✅ Dashboard with Chart.js visualizations
 - ✅ PDF and Excel export
 - ✅ Automated license expiration alerts
@@ -38,10 +39,11 @@ AssetIT is a powerful Laravel 12 application designed for IT departments to mana
 | Technology | Version |
 |------------|---------|
 | Laravel | 13.x |
-| PHP | 8.3+ |
+| PHP | 8.4+ |
 | MySQL | 5.7+ |
 | Bootstrap | 4.x |
 | Chart.js | 3.x+ |
+| Web Server | Nginx / Apache |
 
 ## Getting Started
 
