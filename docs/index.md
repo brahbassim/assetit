@@ -37,8 +37,8 @@ AssetIT is a powerful Laravel 12 application designed for IT departments to mana
 
 | Technology | Version |
 |------------|---------|
-| Laravel | 12.x |
-| PHP | 8.2+ |
+| Laravel | 13.x |
+| PHP | 8.3+ |
 | MySQL | 5.7+ |
 | Bootstrap | 4.x |
 | Chart.js | 3.x+ |
@@ -52,9 +52,9 @@ AssetIT is a powerful Laravel 12 application designed for IT departments to mana
 
 ## Support
 
-- 📖 [Full Documentation](https://github.com/your-repo/assetit#readme)
-- 🐛 [Report Issues](https://github.com/your-repo/assetit/issues)
-- 💬 [Discussions](https://github.com/your-repo/assetit/discussions)
+- 📖 [Full Documentation](https://github.com/brahbassim/assetit#readme)
+- 🐛 [Report Issues](https://github.com/brahbassim/assetit/issues)
+- 💬 [Discussions](https://github.com/brahbassim/assetit/discussions)
 
 ## License
 
