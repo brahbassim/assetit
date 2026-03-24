@@ -100,7 +100,7 @@ dep deploy
 Create `Dockerfile` in project root:
 
 ```dockerfile
-FROM php:8.2-fpm
+FROM php:8.4-fpm
 
 WORKDIR /var/www
 
