@@ -1,0 +1,11 @@
+# Configuration file for GitHub Pages
+title: AssetIT
+description: IT Asset & License Management System - Open Source Laravel Application
+show_sidebar: true
+google_analytics: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      title: ""
